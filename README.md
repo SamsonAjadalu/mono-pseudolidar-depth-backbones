@@ -17,12 +17,12 @@ Then train/evaluate **PointRCNN (OpenPCDet)** on the generated `.bin` folders.
 ```
 analysis/          # analysis scripts
 configs/           # OpenPCDet PointRCNN configs
-data/KITTI/        # KITTI dataset (local only; do not commit)
+data/KITTI/        # KITTI dataset 
 env/               # conda environment files
 extras/            # helper / evaluation scripts
 pseudo_lidar/      # pseudo-LiDAR generators (experiments)
-results/           # outputs (local only; do not commit)
-work/              # intermediate artifacts (local only; do not commit)
+results/           # outputs 
+work/              # intermediate artifacts
 ```
 
 ---
@@ -193,7 +193,7 @@ Notes:
 
 ## Training / evaluation with OpenPCDet (PointRCNN)
 
-This repo does not include OpenPCDet. Install OpenPCDet separately and use the configs in `configs/`.
+Install OpenPCDet and use the configs in `configs/`.
 
 Configs:
 
@@ -250,7 +250,3 @@ Do not commit datasets or generated artifacts:
 * `*.bin`, `*.ckpt`, `*.pth`, `*.pkl`
 
 ---
-
-## License
-
-Add a license if you plan to publish publicly (MIT / Apache-2.0 are common choices).
