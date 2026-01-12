@@ -2,6 +2,11 @@
 
 Utilities to generate **monocular pseudo-LiDAR** point clouds on **KITTI** using different depth backbones (NeWCRFs, Depth Anything v2 Metric), plus scripts for evaluation/analysis.
 
+## Demo
+
+[![Demo](assets/demo.gif)](https://www.youtube.com/watch?v=xuTg-L_vzZQ)
+
+
 Pipeline (high level):
 
 **KITTI image → depth model → backproject to 3D (cam) → cam→velodyne transform → save KITTI `.bin`**  
