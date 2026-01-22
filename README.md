@@ -6,6 +6,9 @@ Utilities to generate **monocular pseudo-LiDAR** point clouds on **KITTI** using
 
 [![Demo](assets/demo.gif)](https://www.youtube.com/watch?v=xuTg-L_vzZQ)
 
+## Paper
+
+[Read the paper on arXiv](https://arxiv.org/pdf/2601.03617)
 
 Pipeline (high level):
 
@@ -242,16 +245,5 @@ This script:
 * loads predicted results from a folder (set `PRED_DIR` at the top)
 * matches GT↔pred by 2D center distance
 * reports depth accuracy using `|z_pred - z_gt| <= 1.5m` across distance buckets
-
----
-
-## What not to commit
-
-Do not commit datasets or generated artifacts:
-
-* `data/KITTI/`
-* `work/`
-* `results/`
-* `*.bin`, `*.ckpt`, `*.pth`, `*.pkl`
 
 ---
