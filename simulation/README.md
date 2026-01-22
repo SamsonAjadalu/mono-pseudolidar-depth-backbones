@@ -10,7 +10,7 @@ To stream real-time sensor data from the CARLA Simulator into the `pseudo_lidar/
 - [x] **Sensor Setup:** RGB Camera and Depth Camera configuration matching KITTI intrinsics.
 - [x] **Data Acquisition:** Frame capture and local logging.
 - [ ] **Coordinate Transformation:** Converting CARLA (Left-Handed) to KITTI (Right-Handed) coordinates.
-- [ ] **Real-time Inference:** Feeding frames directly to `DepthAnything` backbone.
+- [ ] **Real-time Inference:** Feeding frames directly to `Depth` backbone.
 
 ## Usage (Preview)
 Ensure the CARLA server is running (localhost:2000), then run:
