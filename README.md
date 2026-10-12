@@ -4,7 +4,7 @@ Utilities to generate **monocular pseudo-LiDAR** point clouds on **KITTI** using
 
 ## Demo
 
-[![Demo](assets/demo.gif)](https://www.youtube.com/watch?v=xuTg-L_vzZQ)
+[![Demo](assets/demo.gif)](https://samsonajadalu.com/projects/mono-pseudolidar-depth-backbones/)
 
 ## Paper
 
